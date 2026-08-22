@@ -8,7 +8,7 @@ public class AnnualUpdateService {
         this.allAppliances = allAppliances;
     }
 
-    // Performs the appliance shutdown for the annual update.
+    // A scheduler can trigger performAnnualUpdate() at January 1st, 1:00 AM local time and performs the appliance shutdown for the annual update.
     public void performAnnualUpdate() {
         allAppliances.turnOffAll();
     }
