@@ -20,7 +20,6 @@ public class AirConditionerTest {
         assertTrue(airConditioner.isThermostatOn());
 
         airConditioner.turnOff();
-
         assertFalse(airConditioner.isThermostatOn());
     }
 }
