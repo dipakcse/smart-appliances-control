@@ -1,7 +1,7 @@
 A simple smart home appliances controller system using Java.
 
 The application uses an Appliance interface to provide a common
-turnoff functionality for all appliances.
+turnoff functionality for all appliances such as Light, Fan, Air Conditioner.
 
 Each appliance implements its own turnOff() behavior:
 
