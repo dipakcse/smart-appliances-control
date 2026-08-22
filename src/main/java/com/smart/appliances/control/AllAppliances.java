@@ -10,6 +10,13 @@ public class AllAppliances {
         if (appliances == null) {
             throw new IllegalArgumentException("Please provide at least one appliances between Light, Fan, Air Conditioner.");
         }
+        for (Appliances appliance : appliances) {
+            if (appliance == null) {
+                throw new IllegalArgumentException(
+                        "Individual appliance cannot be null"
+                );
+            }
+        }
 
         this.appliances = List.copyOf(appliances);
     }
