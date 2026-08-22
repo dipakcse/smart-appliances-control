@@ -5,6 +5,11 @@ public class AnnualUpdateService {
     private final AllAppliances allAppliances;
 
     public AnnualUpdateService(AllAppliances allAppliances) {
+        if (allAppliances == null) {
+            throw new IllegalArgumentException(
+                    "AllAppliances cannot be null"
+            );
+        }
         this.allAppliances = allAppliances;
     }
 
