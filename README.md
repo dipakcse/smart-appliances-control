@@ -5,9 +5,9 @@ turnoff functionality for all appliances such as Light, Fan, Air Conditioner.
 
 Each appliance implements its own turnOff() behavior:
 
-	1. Light: The light can be turned off by setting a power switch to the "off".
+	1. Light: The light can be turned off by setting a power switch to the "off" state.
 	2. Fan: The fan can be turned off by reducing its speed to 0.
-	3. Air Conditioner: The air conditioner can be turned off by setting the thermostat to 0.
+	3. Air Conditioner: The air conditioner can be turned off by setting the thermostat to "off" state.
 
 The system uses polymorphism to operate on all appliances
 without depending on their specific implementations and in future we can add more appliances without changing existing functionality.
