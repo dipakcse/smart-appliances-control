@@ -18,7 +18,6 @@ public class LightTest {
         assertTrue(light.isOn());
 
         light.turnOff();
-
         assertFalse(light.isOn());
     }
 }
