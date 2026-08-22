@@ -1,5 +1,6 @@
 package com.smart.appliances.control;
 
+// Light functionality and it is off when power switch false
 public class Light implements Appliances{
     private boolean on;
 
