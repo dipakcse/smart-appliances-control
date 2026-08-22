@@ -1,5 +1,6 @@
 package com.smart.appliances.control;
 
+// AirConditioner functionality and it is off when thermostat setting false
 public class AirConditioner implements Appliances{
     private boolean thermostatOn;
 
